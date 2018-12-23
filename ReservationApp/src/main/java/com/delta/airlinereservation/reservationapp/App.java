@@ -1,4 +1,4 @@
-package com.delta.airlinereservation.ReservationApp;
+package com.delta.airlinereservation.reservationapp;
 
 /**
  * Hello world!
