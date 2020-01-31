@@ -48,11 +48,9 @@
         <configuration>
           <reportOutputDirectory>../jenkins/airline_reservation.jar</reportOutputDirectory>
           <destDir>airline_reservation</destDir>
-          ...
-        </configuration>
+           </configuration>
       </plugin>
-      ...
-    </plugins>
+   </plugins>
   </reporting>
 		</pluginManagement>
 	</build>
