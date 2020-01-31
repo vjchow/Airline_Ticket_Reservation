@@ -39,6 +39,21 @@
 					</configuration>
 				</plugin>
 			</plugins>
+			  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.1.1</version>
+        <configuration>
+          <reportOutputDirectory>../jenkins/airline_reservation.jar</reportOutputDirectory>
+          <destDir>airline_reservation</destDir>
+          ...
+        </configuration>
+      </plugin>
+      ...
+    </plugins>
+  </reporting>
 		</pluginManagement>
 	</build>
 </project>
